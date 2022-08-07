@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunt the superhero</title>
+    <link rel="stylesheet" href="css/home-style.css">
+    <link rel="icon" type="image/png" href="favicon.ico?">
+</head>
+
+<body>
+
+    <!-- This div contains navbar and search bar -->
+    <div id="main-1">
+        <div id="nav-bar">
+            <div class="nav-items">
+                <a href="index.html">
+                    <i class="fas fa-mask"></i>
+                    Home</a>
+            </div>
+            <div class="nav-items">
+                <a href="favourite.html">
+                    <i class="fas fa-heart"></i>
+                    Favourites</a>
+            </div>
+
+            <!-- Search bar -->
+
+            <div id="search-bar">
+                <div id="superhero-choose">
+                    <!-- <label for="name-input">Superhero Name : </label> -->
+                    <input type="text" name="superhero_name" placeholder="Super Hero Name" id="name-input">
+                </div>
+                <div class="btn" id="get-image">Find!</div>
+
+            </div>
+        </div>
+
+        <!-- Hamburger menu for smaller screens -->
+
+        <div id="ham-btn"><i class="fas fa-bars"></i></div>
+
+        <div id="ham-bar">
+            <div class="nav-items">
+                <a href="index.html">
+                    <i class="fas fa-mask"></i>
+                    Home</a>
+            </div>
+            <div class="nav-items">
+                <a href="favourite.html">
+                    <i class="fas fa-heart"></i>
+                    Favourites</a>
+            </div>
+        </div>
+
+
+        <!-- div to indicate user to search -->
+
+        <div id="heading-main"><span id="headin-in"> &nbsp; <img style="width: 27px; height: 27px;" src="assets/superhero.png" alt=""> Search Your Favourite Super Heroes here! &nbsp;</span></div>
+
+
+        <!-- fixed div to show toasts -->
+        <div id="toast-div">
+            <!-- Error -->
+        </div>
+
+    </div>
+
+
+    <!-- div to insert superhero cards -->
+
+    <div id="main-2">
+
+        <!-- <div class="card-layout">
+            <div class="hero-id">
+                122
+            </div>
+            <div class="hero-img-container">
+                <img class="hero-img" src="https://www.superherodb.com/pictures2/portraits/10/100/133.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <div class="hero-name">Spider-Man</div>
+                <div class="starred">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </div> -->
+
+
+    </div>
+
+
+    <!-- script files and fontawesome scripts -->
+    <script src="scripts/home-script.js"></script>
+    <script src="https://kit.fontawesome.com/c2e4f2d141.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
