@@ -1,0 +1,149 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    background-image: url('https://st2.depositphotos.com/1163454/6838/v/450/depositphotos_68388481-stock-illustration-abstract-illustration-of-superhero.jpg');
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+label{
+    text-align: center;
+}
+
+#main-1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+#main-2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#nav-bar{
+    left: 0px;
+    right: 0px;
+    display: flex;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+}
+
+.nav-items{
+    margin: 0px 20px;
+}
+
+
+
+.card-layout{
+    cursor: pointer;
+    padding: 5px;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    width: 25%;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+.card-layout:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.card-body{
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.starred{
+    color: red;
+    margin-left: auto;
+}
+
+.hero-id{
+    display: none;
+}
+
+.hero-img-container{
+    
+    width: 100%;
+}
+
+.hero-img{
+    max-height: 400px;
+    width: 100%;
+}
+
+.hero-name{
+    text-align: center;
+}
+
+#toast-div{
+    color: white;
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 0.2s ease-in-out;
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    background-color: red;
+    padding: 5px;
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+}
+
+#nothing-here{
+    text-align: center; 
+    margin-top: 30px;
+    display: none;
+}
+
+#headin-in{
+    background-color: #FFD740;
+}
+
+@media screen and (max-width : 900px)
+{
+    #search-bar{
+        flex-direction: column;
+    }
+
+    #superhero-choose{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #nav-bar{
+        justify-content: center;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:330px){
+    .nav-items{
+        font-size: 18px;
+    }
+}
